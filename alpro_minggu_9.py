@@ -15,7 +15,7 @@ print("------------------------------------")
 ToppingPizza = str(input("Masukkan Pilihan Topping Anda: "))
 if ToppingPizza == "Frankfurter BBQ" :
     print("Harga Pizza Rp.40000 ")
-    harga_tiopping_pizza = 40000
+    harga_topping_pizza = 40000
 elif ToppingPizza == "Meat Monsta" :
     print("Harga Pizza Rp.45000 ")
     harga_topping_pizza = 45000
