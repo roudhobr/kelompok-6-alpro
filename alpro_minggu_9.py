@@ -80,3 +80,19 @@ elif SizePizza == "Large" :
     harga_large_pizza = 80000
 else:
     print("Maaf Size Tidak Tersedia dalam Daftar ")
+
+#tambahan keju
+extra_cheese = input ("(apakah anda ingin menambah extra cheese kami?) (iya/tidak)")
+if extra_cheese == 'iya' :
+    harga_Extracheese = 13000
+    print(f"untuk harga keju adalah :{harga_Extracheese}")
+elif extra_cheese == 'tidak' :
+    harga_Extracheese = 0
+    print (f"dengan tanpa keju adalah :{harga_Extracheese}")
+else :
+    print ("jawaban tidak terdeksi oleh kami")
+
+#total pembelian
+total_pembelian = harga_topping_pizza + harga_crust_pizza + harga_size_pizza + harga_Extracheese
+print("Thank you for choosing Pizza Hut Deliveries!")
+print(f"Your final bill is: Rp",{total_pembelian})
