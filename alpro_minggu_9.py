@@ -58,3 +58,25 @@ elif CrustPizza == "Crown Crust" :
     harga_crust_pizza = 15000
 else:
     print("Maaf Crust Tidak Tersedia dalam Daftar ")
+
+#pilihan size
+print("------------------------------------")
+print("---------------Menu size---------------")
+print("-->              Small          <--")
+print("-->              Medium         <--")
+print("-->              Large          <--")
+print("------------------------------------")
+
+#pelanggan memilih size pizza
+SizePizza = str(input("Masukkan Pilihan Size pizza Anda: "))
+if SizePizza == "Small" :
+    print("Harga Small size Rp.49000")
+    harga_small_pizza = 49000
+elif SizePizza == "Medium" :
+    print("Harga Medium Rp.59000")
+    harga_medium_pizza = 59000
+elif SizePizza == "Large" :
+    print("Harga Large Rp.80000")
+    harga_large_pizza = 80000
+else:
+    print("Maaf Size Tidak Tersedia dalam Daftar ")
